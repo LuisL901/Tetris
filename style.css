@@ -1,0 +1,76 @@
+.container {
+    display:flex;
+}
+
+.grid {
+    margin-left: 45%;
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:rgb(0, 0, 0);
+    border-radius: 5%;
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+}
+
+.tetremino {
+    background-color: blueviolet;
+  
+
+}
+
+.mini-grid {
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(0, 0, 0);
+}
+
+.mini-grid div {
+    height: 20px;
+    width: 20px;
+}
+
+body {
+    background: linear-gradient(rgb(49, 204, 145) , rgb(53, 17, 99));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#start-button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius: 20%;
+    height: 30px;
+    width: 90px;
+    margin-left: 5%;
+    margin-top: 150%;
+}
+
+#welcome {
+    margin-left: 32%;
+    font-family: "Press Start 2P";
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+
+h3 {
+    font-family: "Press Start 2P";
+    margin-left: 46%;
+}
+
+#box {
+    background-color: rgba(24, 236, 130, 0.37);
+    height: 300px;
+    width: 100px; 
+    margin-left: 8%;
+    display: flex;
+    flex-wrap: wrap;
+}
